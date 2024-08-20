@@ -1,0 +1,109 @@
+/* Container to center the forms */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4169e1; /* Background color of the page */
+}
+
+/* Form card styling */
+.form-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+}
+
+/* Form heading styling */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form input field styling */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Form button styling */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4169e1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3151b5;
+}
+
+/* Social login button container */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Facebook button styling */
+.facebook-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b5998;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.facebook-btn svg {
+  margin-right: 8px;
+}
+
+/* Google button styling */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #db4437; */
+  /* color: white; */
+  padding: 10px;
+  border: solid gray 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.google-btn svg {
+  margin-right: 8px;
+}
+
+/* Link styling */
+a {
+  display: block;
+  margin-top: 10px;
+  color: #4169e1;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
